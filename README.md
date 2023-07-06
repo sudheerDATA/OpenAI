@@ -18,9 +18,10 @@ To create and activate a virtual environment using venv, you can run the followi
 ```
 conda create -p [envname] python==[version] -y
 ```
+```
 conda activate [envname] 
 ```
-or 
+or
 ```
 python3 -m venv env  # Create a virtual environment named 'env'
 source env/bin/activate  # Activate the virtual environment
