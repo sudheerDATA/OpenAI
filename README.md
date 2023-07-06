@@ -1,4 +1,5 @@
 # OpenAI
+## 🐍requirements.txt
 In Python, a requirements.txt file is commonly used to specify the dependencies of a Python project. It lists the packages and their specific versions required for the project to run correctly. The requirements.txt file simplifies the process of managing dependencies and allows for easy installation of all the required packages.
 Here's an example of a requirements.txt file:
 ```
@@ -33,7 +34,7 @@ This command will install the packages specified in requirements.txt within the 
 
 Using a requirements.txt file helps ensure that your project has consistent dependencies across different environments and makes it easier for others to replicate your project by installing the required packages. It is considered good practice to include a requirements.txt file with your project, especially when sharing it with others or deploying it to production environments.
 
-
+## python-dotenv
 :python: python-dotenv is a Python library that helps with loading environment variables from a .env file into your Python application. It simplifies the process of managing environment-specific configurations by allowing you to store sensitive information like API keys, database credentials, or other configuration values in a separate file, rather than hardcoding them into your codebase.
 
 To use python-dotenv, you need to install it first using pip:
@@ -64,7 +65,7 @@ print(db_host)
 By calling load_dotenv(), python-dotenv will automatically read the .env file and set the environment variables in your application's environment. You can then access these variables using os.getenv() by providing the corresponding key.
 
 Note that python-dotenv is particularly useful for local development or small-scale projects. In production or more complex setups, you might have more robust ways of managing environment variables, such as using a configuration management system or container orchestration tools.
-
+## .env 👽
 An .env file is a text file commonly used to store configuration variables and sensitive information for a project. It stands for "environment" file and is often used in conjunction with tools like python-dotenv.
 
 The .env file follows a key-value format, where each line represents a variable assignment. The variables are typically environment-specific configurations, such as API keys, database credentials, or any other sensitive information that should not be hard-coded into your codebase.
